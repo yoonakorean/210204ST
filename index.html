@@ -120,7 +120,7 @@ function showGameArea(){
   submitBtn.disabled=true;
   gameTitle.textContent = displayTitle; // 顯示給玩家的標題
   if(currentMode==="challenge"){
-    timeLeft=shuffledQuestions.length*30;
+    timeLeft=shuffledQuestions.length*50;
     timerDiv.textContent=`剩餘時間：${timeLeft} 秒`;
   } else {
     timerDiv.textContent="";
